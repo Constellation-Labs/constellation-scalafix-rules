@@ -16,7 +16,7 @@ jobs:
       - name: Setup Java, Scala, and SBT
         uses: olafurpg/setup-scala@v14
         with:
-          java-version: openjdk@1.11
+          java-version: temurin@11
 
       - name: Build and publish constellation-scalafix-rules artifacts
         run: sbt ci-release
