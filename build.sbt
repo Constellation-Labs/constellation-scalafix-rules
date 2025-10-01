@@ -22,7 +22,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "constellation-scalafix-rules",
     libraryDependencies ++= Seq(
-      "ch.epfl.scala" %% "scalafix-core" % "0.13.0"
+      "ch.epfl.scala" %% "scalafix-core" % "0.14.2"
     ),
     scalacOptions ++= Seq(
       "-Yrangepos",

@@ -60,6 +60,10 @@ Map("a" -> 1).foldLeft(Map("a" -> 2)) { case (acc, (k, v)) =>
 }
 ```
 
+## Requirements
+
+- Scalafix 0.13.0 or greater
+
 ## Installation
 
 Add the following to your `build.sbt`:
