@@ -1,0 +1,3 @@
+io.constellationnetwork.scalafix.NoSetSum
+io.constellationnetwork.scalafix.NoSetMap
+io.constellationnetwork.scalafix.NoMapConcat
